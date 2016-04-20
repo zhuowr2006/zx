@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_22"
+        android:layout_marginRight="@dimen/margin_22"
+        android:layout_marginTop="@dimen/margin_90"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/credit_report_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_38"
+            android:layout_marginLeft="@dimen/margin_44"
+            android:layout_marginRight="@dimen/margin_44"
+            android:text="@string/credit_report_prompt"
+            android:textSize="@dimen/textSize_15"
+            android:textColor="@color/black_color7"
+            android:lineSpacingExtra="@dimen/margin_13" />
+
+        <Button
+            android:id="@+id/credit_authentication"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_57"
+            android:background="@drawable/login_btn_selector"
+            android:text="@string/credit_authentication"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_18" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_38"
+            android:layout_marginLeft="@dimen/margin_44"
+            android:layout_marginRight="@dimen/margin_44"
+            android:text="@string/credit_query_prompt"
+            android:textSize="@dimen/textSize_15"
+            android:textColor="@color/black_color7"
+            android:lineSpacingExtra="@dimen/margin_13" />
+
+        <Button
+            android:id="@+id/credit_query"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/login_btn_selector"
+            android:text="@string/credit_query"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_18"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/workspace/zx/Copy%20of%20ZxQuery/res/layout/activity_credit_report.xml -->

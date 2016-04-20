@@ -1,0 +1,290 @@
+<resources>
+
+    <color name="text_grey_color6">#cecece</color>
+    <color name="blue">#00BFFF</color>
+    <color name="yellow">#fff19136</color>
+    <color name="gray">#ffb7b7b7</color>
+    <color name="gray_color2">#ccccce</color>
+    <color name="gray_color3">#F0F0F0</color>
+    <color name="gray_color4">#dddddd</color>
+    <color name="gray_color5">#F5F5F5</color>
+    <color name="gray_color6">#E4E4E4</color>
+    <color name="gray_color7">#bec1c1</color>
+    <color name="gray_color8">#e8ecef</color>
+    <color name="gray_color9">#c8cee0</color>
+    <color name="gray_color10">#f1f4f8</color>
+    <color name="dark_gray">#ff4b4e53</color>
+    <color name="black">#ff000000</color>
+    <color name="black_color">#353535</color>
+    <color name="black_color7">#868b9a</color>
+
+    <!-- listview背景透明白 -->
+    <color name="choose_eara_pressed">#B9E0EF</color>
+    <color name="fff0f0f0">#f0f0f0</color>
+
+    <!-- 背景 半透明颜色 -->
+    <color name="layout_lucency">#89000000</color>
+    <!-- 深黑色 -->
+    <color name="black_color2">#878787</color>
+    <color name="black_color4">#333333</color>
+     <color name="black_color5">#868b9a</color>
+    <!-- 灰黑色 -->
+    <color name="black_color3">#bec1c1</color>
+    <color name="red">#FF0000</color>
+    <color name="red_color">#ee7d55</color>
+    <!-- 橘红色 -->
+    <color name="red_color2">#B64821</color>
+    <!-- 银色 -->
+    <color name="lightgrey">#D3D3D3</color>
+    <!-- 深橘红色 -->
+    <color name="pull_refresh_textview">#000000</color>
+    <color name="gold">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent2">#50000000</color>
+    <color name="transparent3">#00ffffff</color>
+    <color name="transparent4">#A0000000</color>
+    <color name="white_bg_color">#f9f9f9</color>
+    <!-- 绿色 -->
+    <color name="green">#85B36B</color>
+    <color name="green_color1">#597D45</color>
+    <color name="green_color2">#8bd030</color>
+    <!-- 深绿色 -->
+    <color name="dialog_background">#90000000</color>
+    <!-- dialog背景 -->
+
+
+    <!-- ListView选项之间的间隔的颜色 -->
+    <color name="listview_divider_color">#E3E3E3</color>
+    <!-- ListView点击效果 -->
+    <color name="item_listview_normal_color">#F7F7F7</color>
+    <color name="item_listview_pressed_color">#e5e5e5</color>
+    <!-- App的背景颜色 -->
+    <color name="app_background_color">#F7F7F7</color>
+
+    <!-- 顶部字体的颜色 -->
+    <color name="top_text_color">#18b4ed</color>
+    <!-- 顶部那一条线的颜色 -->
+    <color name="top_line_color">#bbbbbb</color>
+    <color name="top_line_color1">#3FB9EC</color>
+    <!-- 顶部背景颜色 -->
+    <color name="top_background_color">#eaeaef</color>
+    <color name="top_background_color1">#FFFFFF</color>
+    <!-- 底部字体颜色 -->
+    <color name="bottom_text_color">#a6a6a6</color>
+    <color name="bottom_text_color1">#3176c1</color>
+    <!-- 底部背景颜色 -->
+    <color name="bottom_background_color">#fafbfe</color>
+
+    <!-- 左侧边栏 -->
+    <color name="left_menu_textColor">#FFFFFF</color>
+    <color name="bg_left_menu_top_color">#ff000000</color>
+    <color name="bg_left_menu_color">#353535</color>
+    <color name="item_left_menu_normal_color">#384347</color>
+    <color name="item_left_menu_pressed_color">#878787</color>
+
+    <!-- 系统设置界面 -->
+    <color name="unclick_color">#A8A8A8</color>
+
+    <!-- login 界面 -->
+    <color name="login_textsize">#aaaaaa</color>
+    <color name="top_title_color">#565656</color>
+    <color name="blue_register">#3FB9EC</color>
+    <color name="item_background">#f1f5f9</color>
+    <color name="item_text">#868d9a</color>
+    <color name="item_edit_hint_text">#c8cee0</color>
+    <color name="item_edit_text">#525466</color>
+    <!-- 验证界面 -->
+    <color name="vertify_view_backgroundcolor">#FBFBFB</color>
+    <color name="vertify_view_select_bgcolor">#FFFFFF</color>
+    <color name="vertify_view_textcolor">#565656</color>
+    <color name="item_pulldown_listview_textcolor">#979797</color>
+    <color name="item_color">#FF000000</color>
+    <color name="input_ticket_Edtv_color">#cbcbcb</color>
+    <!-- 主界面 -->
+    <color name="tab_item_textColor_normal">#565656</color>
+    <color name="tab_item_textColor_pressed">#ff6600</color>
+    <!-- 验证记录界面 -->
+    <color name="verification_records_count_textColor">#aaaaaa</color>
+    <color name="verification_records_item_textColor1">#aaaaaa</color>
+    <color name="verification_records_item_textColor2">#565656</color>
+    <color name="verification_records_item_textColor3">#f69642</color>
+    <!-- 验证记录  选择时间获得界面 -->
+    <color name="item_normal_color">@color/app_background_color</color>
+    <color name="item_pressed_color">#E7E7E7</color>
+    <color name="btn_bg_color2">#f8ac67</color>
+    <color name="line_imageview_color">#BBBBBB</color>
+    <color name="edittext_time_textColor">#aaaaaa</color>
+    <color name="time_textColor">#aaaaaa</color>
+    <color name="btn_brown_normal_textColor">#ffffff</color>
+    <color name="btn_brown_pressed_textColor">#ff6600</color>
+
+    <!-- 设置面 -->
+    <color name="text_color">#ff7800</color>
+    <color name="text_color1">#aaaaaa</color>
+    <color name="text_color2">#565656</color>
+    <color name="bg_color">#fbfbfb</color>
+    <color name="bg_color2">#f7f7f7f7</color>
+    <!--  -->
+    <color name="store_activity_textColor">#ff6600</color>
+    <color name="item_press">#f4f4f4</color>
+    <color name="item_normal">#00000000</color>
+    <color name="list_title_address_color">#999999</color>
+    <color name="white">#ffffff</color>
+
+    <!-- 关于我们界面 -->
+    <color name="top_line_inaboutus_color">#1ab9e3</color>
+
+    <!--  -->
+    <!-- App的背景颜色 -->
+    <color name="book_app_background_color">#f6f6f6</color>
+    <color name="app_background_color1">#f1f0f6</color>
+
+    <!-- 主界面 -->
+    <color name="tab_bottom_textColor_normal">#878787</color>
+    <color name="tab_bottom_textColor_pressed">#33b5e6</color>
+    <color name="tab_bottom_split_line">#dddddd</color>
+    <color name="top_title_background">#35385c</color>
+    <!-- login -->
+    <color name="login_text_color">#cccccc</color>
+    <color name="status_chk_text_color">#878787</color>
+    <color name="text_blue_color">#33b5e6</color>
+    <color name="text_grey_color">#878787</color>
+    <color name="text_forgetpwd_color">#ccccce</color>
+    <color name="text_emailaddress_color">#ee7d55</color>
+    <color name="text_date_color">#b6b6b6</color>
+    <color name="enable_btn_color">#d3d3d3</color>
+    <color name="normal_btn_color">#3fb9ec</color>
+    <color name="press_btn_color">#10779e</color>
+    <color name="text_merchants_join_brown_color">#ff7e00</color>
+    <color name="text_watermelon_color_normal">#ee7d55</color>
+    <color name="text_watermelon_color_press">#b64821</color>
+    <!-- 分割线 -->
+    <color name="gray_color1">#DFDFDF</color>
+    <color name="blue_color1">#3FB9EC</color>
+    <color name="text_blue_color6">#def6fd</color>
+    <!-- 浅蓝色 -->
+    <color name="text_blue_color7">#4dbeed</color>
+    <color name="text_blue_color8">#99c3f1</color>
+    <color name="oval_blue_color1">#7CD1F3</color>
+    <color name="oval_blue_color2">#00A3E9</color>
+    <!-- 浅蓝色 -->
+    <color name="blue_color2">#10779E</color>
+    <color name="blue_color3">#21B5EB</color>
+    <color name="blue_color4">#10cacc</color>
+    <!-- 深蓝色 -->
+    <color name="text_black_color">#383838</color>
+    <color name="text_black_color2">#323232</color>
+    <color name="misercard_text_color">#666</color>
+
+    <!-- 退出登录的Btn -->
+    <color name="logout">#f56f26</color>
+    <!-- 登录的Btn -->
+    <color name="login">#678ad1</color>
+    <!-- 注销的Btn -->
+    <color name="logout1">#f93f3d</color>
+    <!-- 注册的Btn -->
+    <color name="register">#83acff</color>
+    <!-- 上下页btn颜色 -->
+    <color name="page_s_bg">#4489d1</color>
+    <!-- 界面的item颜色 -->
+    <color name="fragment_item_color">#e0e0e0</color>
+    <!-- 参保 背景颜色 -->
+    <color name="insured_background_color">#F0EFF5</color>
+    <color name="insured_background_color2">#F5F5F7</color>
+    <color name="insured_text">#4F7687</color>
+
+    <!-- 界面的item文字颜色 -->
+    <color name="fragment_item_text_color">#5987a7</color>
+    <!-- 登录注册btn颜色 -->
+    <color name="login_btn">#4099ff</color>
+    <color name="table_line_color">#e6e6e9</color>
+    <color name="search_e_bg">#ffffff</color>
+    <color name="search_s_bg">#ffffff</color>
+    <!-- 安全控件 -->
+    <color name="title_bar_bg">#EAEAEF</color>
+    <color name="title_bar_split">#B2B2B2</color>
+    <color name="title_code_color">#18b4ed</color>
+    <color name="dark_red">#ffcc0000</color>
+    <color name="product_odd_row">#ffffffff</color>
+    <color name="product_even_row">#fff5f5f5</color>
+    <color name="light_gray">#ffe6e6e6</color>
+    <color name="orange_line">#fff2daac</color>
+    <color name="font_red">#ffff0000</color>
+    <color name="font_gray">#ff888888</color>
+    <color name="product_options_active">#ffff9900</color>
+    <color name="product_options_passive">#ff999999</color>
+    <color name="limit_buy_border_bg">#ffd4bc77</color>
+    <color name="limit_buy_title_bg">#fffffaee</color>
+    <color name="limit_buy_title_border_bg">#fff2daac</color>
+    <color name="limit_buy_green">#ff00cc00</color>
+    <color name="limit_buy_text_bg">#ff666666</color>
+    <color name="lightblack">#ff202020</color>
+    <color name="crimson">#ffe61a1a</color>
+    <color name="category_name_gray">#ffa2a2a2</color>
+    <color name="category_list_bg">#fff7f7f7</color>
+    <color name="category_vertival_line">#ffc4c4c4</color>
+    <color name="category_divider_color">#ffdbdbdb</color>
+    <color name="category_text_color">#ff000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <!-- 横标头 -->
+    <color name="list_heng_color">#dbdbdb</color>
+    <!-- 竖标头 -->
+    <color name="list_shu_color">#f1f0f6</color>
+    <!-- 社保计算器 -->
+    <color name="vifrification_1">#1F1F1F</color>
+    <color name="vifrification">#00000000</color>
+    <color name="shebao_counter_btn_blue_color">#5ca3da</color>
+    <color name="shebao_counter_btn_green_color">#4CB848</color>
+    <color name="shebao_counter_text_green_color">#2d9d37</color>
+    <color name="shebao_counter_text_gray_color">#737373</color>
+    <color name="shebao_counter_text_black_color">#353535</color>
+    <color name="shebao_counter_text_blue_color">#396dab</color>
+    <color name="shebao_counter_background_color">#EFEDF5</color>
+    <color name="shebao_counter_line_color">#d9d9d9</color>
+    <color name="shebao_counter_line_blue_color">#8cb8e7</color>
+
+    <!-- 医院 -->
+    <!-- 灰色 -->
+    <color name="hos_ver_glay1">#d9d9d9</color>
+    <color name="hos_context_text1">#999999</color>
+    <color name="glay_back_one">#ebebeb</color>
+    <!-- 蓝色 -->
+    <color name="hos_hor_blue1">#8cb8e7</color>
+    <color name="hos_hor_blue2">#2675cd</color>
+    <!-- 红色 -->
+    <color name="hos_context_text2">#e56d72</color>
+    <color name="hos_context_text3">#ff222d</color>
+    <!-- 黑色 -->
+    <color name="hos_top_text">#353535</color>
+
+    <!-- 支付 -->
+    <color name="pay_img_color1">#8bb8e7</color>
+    <color name="pay_btn_color">#21c031</color>
+    <color name="pay_btn_color2">#18b4ed</color>
+    <color name="pay_xian_color">#fde095</color>
+    <color name="pay_ok_text">#f7262c</color>
+
+</resources>

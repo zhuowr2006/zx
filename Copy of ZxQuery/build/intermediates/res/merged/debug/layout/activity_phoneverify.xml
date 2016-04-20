@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/item_background"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="@string/phoneNumber"
+            android:textColor="@color/item_text"
+            android:textSize="@dimen/textSize_15" />
+
+        <EditText
+            android:id="@+id/phoneNumber_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@color/transparent"
+            android:hint="@string/input_phoneNumber_hint"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:textColor="@color/item_edit_text"
+            android:textColorHint="@color/item_edit_hint_text"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="15dp"
+        android:background="@color/item_background"
+        android:gravity="center" >
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="@string/auth_code"
+                android:textColor="@color/item_text"
+                android:textSize="@dimen/textSize_15" />
+
+            <EditText
+                android:id="@+id/verification_code_et"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:hint="@string/input_auth_code_hint"
+                android:inputType="number"
+                android:maxLength="6"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:singleLine="true"
+                android:textColor="@color/item_edit_text"
+                android:textColorHint="@color/item_edit_hint_text"
+                android:textSize="@dimen/textSize_15" />
+
+            <Button
+                android:id="@+id/get_verification_code_Btn"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/login_btn"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:minEms="5"
+                android:text="@string/get_auth_code"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize_12" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/login_btn_selector"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize_18" />
+
+</LinearLayout><!-- From: file:/D:/workspace/zx/Copy%20of%20ZxQuery/res/layout/activity_phoneverify.xml -->

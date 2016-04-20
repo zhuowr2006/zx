@@ -1,0 +1,11 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingBottom="4dip"
+    android:paddingLeft="10dip"
+    android:paddingTop="4dip"
+    android:textColor="@color/item_edit_text"
+    android:textSize="@dimen/textSize_15" />
+<!-- From: file:/D:/workspace/zx/Copy%20of%20ZxQuery/res/drawable/fd_spinner.xml -->

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">征信查询</string>
+    <string name="network_error_please_check">网络不给力请检查网络</string>
+    <string name="net_not_connected">当前网络不可用，请重新检查网络链接</string>
+    <string name="network_error">网络请求错误</string>
+    <string name="network_timeout">连接超时</string>
+    <string name="loading">努力加载中…</string>
+    
+    
+    <!-- 信用身份认证 -->
+    <string name="credit_report_prompt">查询信用报告需使用银行卡身份证验证您的身份</string>
+    <string name="credit_authentication">银联身份认证</string>
+    <string name="credit_query">查询信用报告</string>
+    <string name="credit_query_prompt">请通过身份认证收到短信通后进行查询征信报告</string>
+    <string name="report_path">/征信报告</string>
+    
+    <!-- 信用身份认证资料 -->
+    <string name="identity_name">姓名</string>
+    <string name="identity_number">身份证号码</string>
+    <string name="identity_number_type">身份证类型</string>
+    <string name="identity_card_number">银行卡号</string>
+    <string name="identity_card_pwd">银行卡密码</string>
+    <string name="identity_yanzhengma">验证码</string>
+    <string name="identity_phone">手机号</string>
+    
+    <!-- 修改密码 -->
+    <string name="modify_name">姓名</string>
+    <string name="modify_pwd">密码</string>
+    <string name="modify_repwd">确认密码</string>
+    
+    <!-- 查看信用报告 -->
+    <string name="check_credit_shengqingma">请输入申请码</string>
+    <!-- 授权书界面 -->
+    <string name="authorization_info_query">《已阅读并同意授权书内容》</string>
+    <string name="authorization_info_ifSendToOrg">征信报告是否同时发给机构一份?</string>
+    <string name="authorization_inputCode">请输入授权码 :</string>
+    <string name="authorization_btn_cancel">取  消</string>
+    <string name="authorization_btn_submit">提  交</string>
+    <!-- 报告申请结果界面 -->
+    <string name="result_btn_know">知道了</string>
+    <string name="result_tv_tips">您申请的征信报告将于24小时内发至您的手机</string>
+    
+    
+    <!-- 忘记密码 -->
+    <string name="forget_pwd">忘记密码</string>
+    <!-- btn统一 -->
+    <string name="next_step">下一步</string>
+    <string name="download">下载</string>
+    <string name="check">查看</string>
+    
+
+    <!-- 登陆注册 -->
+    <string name="logout">退出登录</string>
+    <string name="change_password">修改密码</string>
+    <string name="register">注册</string>
+    <string name="next">下一步</string>
+    <string name="input_phoneNumber_hint">请输入手机号</string>
+    <string name="input_auth_code_hint">请输入验证码</string>
+    <string name="phoneNumber">手机号</string>
+    <string name="auth_code">验证码</string>
+    <string name="get_auth_code">获取验证码</string>
+    <string name="login_overdue">登录超时或者过期，请重新登录</string>
+    <string name="erro">返回数据出错</string>
+
+
+    <!-- 退出提示框 -->
+    <string name="comm_comfirm">确定</string>
+    <string name="comm_cancel">取消</string>
+    <string name="comm_notice">温馨提示</string>
+    <string name="i_know">我知道了</string>
+    <string name="comm_tips">是否确定取消</string>
+
+    <!-- 登录注册安全控件 -->
+    <string name="fd_register_title">注册</string>
+    <string name="fd_register_name">姓名</string>
+    <string name="fd_register_name_hint">请输入姓名</string>
+    <string name="fd_register_cardType">证件类型</string>
+    <string name="fd_register_cardNo">证件号码</string>
+    <string name="fd_register_cardNo_hint">请输入证件号码</string>
+    <string name="fd_register_bankType">银行</string>
+    <string name="fd_register_bankNo">银行账号</string>
+    <string name="fd_register_bankNo_hint">请输入银行账号</string>
+    <string name="fd_register_userName">用户名</string>
+    <string name="fd_register_userName_hint">4-30位字母或数字</string>
+    <string name="fd_register_password">密码</string>
+    <string name="fd_register_pwd">请输入密码</string>
+    <string name="fd_register_password_hint">8-16个字母数字加特殊符号</string>
+    <string name="fd_register_passwordAgain">确认密码</string>
+    <string name="fd_register_passwordAgain_hint">请确认密码</string>
+          
+    <string name="fd_register_done">完成</string>
+    <string name="fd_register_login">登录</string>
+    <string name="fd_register_regisiter">注册</string>
+    
+    <string name="fd_register_cancel">取消</string>
+    <string-array name="fd_register_cardTypeItems">
+        <item>居民身份证</item>
+        <item>澳门居民往来内地通行证</item>
+        <item>台湾居民往来大陆通行证</item>
+        <item>香港居民往来内地通行证</item>
+        <item>外国人永久居留证</item>
+        <item>外国人护照</item>
+        <item>户口本</item>
+    </string-array>
+    <string-array name="fd_register_bankTypeItems">
+        <item>建设银行|CCB|95533</item>
+        <item>农业银行|ABC|95599</item>
+        <item>交通银行|BCM|95559</item>
+        <item>招商银行|CMB|95555</item>
+        <item>邮政储蓄银行|PSBC|95580</item>
+        <item>深圳农村商业银行|SRCB|4001961200</item>
+    </string-array>
+
+    <string name="fd_register_captcha">验证码</string>
+    <string name="fd_register_captcha_hint">请输入验证码</string>
+    <string name="fd_login_title">登录</string>
+    <string name="fd_login_userInfo">找回密码、找回用户名、更改密码</string>
+    <string name="fd_login_userInfoUrl">https://suum.szsi.gov.cn/suum/</string>
+    <string name="fd_modifyPwd_title">修改密码</string>
+    <string name="fd_modifyPwdOld_password">原始密码</string>
+    <string name="fd_modifyPwdOld_password_hint">请输入原始密码</string>
+    <string name="fd_modifyPwdNew_password">新密码</string>
+    <string name="fd_modifyPwdNew_password_hint">请输入新密码</string>
+
+
+    <!-- 上拉加载 -->
+    <string name="pull_to_refresh_pull_label">下拉刷新</string>
+    <string name="pull_to_refresh_release_label">松开后刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在刷新\u2026</string>
+    <string name="pull_to_refresh_footer_release_label">松开后加载</string>
+    <string name="more">更多</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">正在加载中\u2026</string>
+    <string name="nomore_data">已经是全部数据</string>
+    <string name="pull_to_refresh_formore">上拉可查看更多</string>
+
+</resources>

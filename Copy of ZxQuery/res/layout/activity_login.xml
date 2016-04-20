@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="false"
+        android:gravity="center"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                android:paddingTop="10dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/item_background"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:text="@string/fd_register_cardNo"
+                        android:textColor="@color/item_text"
+                        android:textSize="@dimen/textSize_15" />
+
+                    <EditText
+                        android:id="@+id/txtCardNo"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="@string/fd_register_cardNo_hint"
+                        android:maxLength="20"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/item_edit_text"
+                        android:textColorHint="@color/item_edit_hint_text"
+                        android:textSize="@dimen/textSize_15" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/item_background"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:text="@string/fd_register_cardType"
+                        android:textColor="@color/item_text"
+                        android:textSize="@dimen/textSize_15" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/down" />
+
+                    <Spinner
+                        android:id="@+id/spinnerCardType"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:paddingLeft="20dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/item_background"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:text="@string/fd_register_password"
+                        android:textColor="@color/item_text"
+                        android:textSize="@dimen/textSize_15" />
+
+                    <EditText
+                        android:id="@+id/txtLoginPassword"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="@string/fd_register_password_hint"
+                        android:inputType="textPassword"
+                        android:maxLength="16"
+                        android:paddingLeft="20dp"
+                        android:textColor="@color/item_edit_text"
+                        android:textColorHint="@color/item_edit_hint_text"
+                        android:textSize="@dimen/textSize_15" >
+                    </EditText>
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@color/item_background"
+                    android:gravity="center" >
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:text="@string/fd_register_captcha"
+                            android:textColor="@color/item_text"
+                            android:textSize="@dimen/textSize_15" />
+
+                        <EditText
+                            android:id="@+id/txtLoginCaptcha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:hint="@string/fd_register_captcha_hint"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:paddingBottom="5dp"
+                            android:layout_marginLeft="20dp"
+                            android:paddingTop="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/item_edit_text"
+                            android:textColorHint="@color/item_edit_hint_text"
+                            android:textSize="@dimen/textSize_15" />
+
+                        <ImageView
+                            android:id="@+id/imageLoginCaptcha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="28dp"
+                            android:background="@color/transparent"
+                            android:src="@drawable/ic_launcher" />
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/login_btn_selector"
+                    android:padding="10dp"
+                    android:text="@string/fd_register_login"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/textSize_18" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/forgetPwd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="22dp"
+                        android:text="@string/forget_pwd"
+                        android:textColor="@color/item_text"
+                        android:visibility="gone"
+                        android:textSize="@dimen/textSize_15" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

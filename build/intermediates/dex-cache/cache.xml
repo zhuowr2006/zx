@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\build\intermediates\exploded-aar\zx\Copy of androidv7-appcompat\unspecified\jars\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a13f8fe2c278737e2f0b6fcf00f6b2ae4034aacf">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\android-support-v4-7a508bf274b2b79243c8f788002416d5ef58840b.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\libs\org-apache-zip-1.9.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cc12b6081a5f85664c566c0534c74db4882288c0">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\org-apache-zip-1.9.4-7741251176f20058d662ac189ba4ed31a8dc1ab9.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\libs\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="53bfcd3c8e310d1493b2691484525ed90b04e236">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\gson-2.2.2-9ef0dfb508ed410caf485da3bbd3b9418e2e76d8.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\build\intermediates\exploded-aar\zx\Copy of androidv7-appcompat\unspecified\jars\libs\android-support-v7-appcompat.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c88b0ae4f2a995ed6957a78b5bf132986d4c538">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\android-support-v7-appcompat-45f81f80549eac38baa9386bdc2232a71e35ec97.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\sun.misc.BASE64Decoder-727b65b0deae006db77215eeeaf0e8215eac8348.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\libs\android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\android-async-http-1.4.4-8d443296486473ce2ef9e31b2f78a3a6feab164c.jar" />
+    </item>
+    <item
+        jar="D:\workspace\zx\Copy of ZxQuery\build\intermediates\exploded-aar\zx\Copy of androidv7-appcompat\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="23ccfb37ebf8b47015dc7d6e42f3846b15331d2f">
+        <dex dex="D:\workspace\zx\Copy of ZxQuery\build\intermediates\pre-dexed\debug\classes-e5ebdad406b199770b0a3f36b88c12ee46929303.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/check_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="81dp"
+            android:layout_marginTop="81dp"
+            android:src="@drawable/download" />
+
+        <Button
+            android:id="@+id/check_credit_download"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="@dimen/margin_22"
+            android:layout_marginRight="@dimen/margin_22"
+            android:layout_marginTop="62dp"
+            android:background="@drawable/register_btn_selector"
+            android:text="@string/download"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_18" 
+            android:enabled="false"/>
+
+        <TextView
+            android:id="@+id/tv_tips_reportStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="征信报告不存在" 
+            android:visibility="gone"
+            android:textColor="@color/item_edit_text"/>
+
+        <Button
+            android:id="@+id/check_credit"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="@dimen/margin_22"
+            android:layout_marginRight="@dimen/margin_22"
+            android:layout_marginTop="62dp"
+            android:background="@drawable/register_btn_selector"
+            android:text="@string/check"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textSize_18" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/credit_webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/D:/workspace/zx/Copy%20of%20ZxQuery/res/layout/activity_check_credit_report.xml -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/common_head"
+        android:layout_width="match_parent" >
+
+        <TextView
+            android:id="@+id/top_bar_titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="登陆"
+            android:textColor="@color/top_title_background"
+            android:textSize="@dimen/textSize_18" />
+
+        <Button
+            android:id="@+id/top_bar_left_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/top_backbtn_selector" />
+
+        <!--
+             <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/top_line_color" />
+        -->
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/workspace/zx/Copy%20of%20ZxQuery/res/layout/include_top.xml -->

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_30"
+        android:background="@color/item_background" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/fd_register_cardNo"
+            android:textColor="@color/item_text"
+            android:textSize="@dimen/textSize_15" />
+
+        <TextView
+            android:id="@+id/modify_id_number"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="小王"
+            android:textColor="@color/item_edit_text"
+            android:textColorHint="@color/item_edit_hint_text"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:background="@color/item_background" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/fd_register_cardType"
+            android:textColor="@color/item_text"
+            android:textSize="@dimen/textSize_15" />
+
+        <TextView
+            android:id="@+id/modify_id_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@null"
+            android:hint="13777777777"
+            android:textColor="@color/item_edit_text"
+            android:textColorHint="@color/item_edit_hint_text"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:background="@color/item_background" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/modify_pwd"
+            android:textColor="@color/item_text"
+            android:textSize="@dimen/textSize_15" />
+
+        <EditText
+            android:id="@+id/modify_pwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:hint="@string/fd_register_password_hint"
+            android:textColor="@color/item_edit_text"
+            android:textColorHint="@color/item_edit_hint_text"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="@dimen/margin_15"
+        android:background="@color/item_background" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_20"
+            android:layout_weight="2"
+            android:gravity="left"
+            android:text="@string/modify_repwd"
+            android:textColor="@color/item_text"
+            android:textSize="@dimen/textSize_15" />
+
+        <EditText
+            android:id="@+id/modify_repwd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="5"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:hint="@string/fd_register_password_hint"
+            android:textColor="@color/item_edit_text"
+            android:textColorHint="@color/item_edit_hint_text"
+            android:textSize="@dimen/textSize_15" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/modify_next"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="@dimen/margin_22"
+        android:layout_marginRight="@dimen/margin_22"
+        android:layout_marginTop="@dimen/margin_20"
+        android:background="@drawable/login_btn_selector"
+        android:text="@string/next_step"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
